@@ -1,0 +1,300 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* --------------------FIN DU RESET---------------------- */
+
+body {background-color: #000033;}
+
+#conteneur {width: 100%;}
+
+@font-face{font-family: "montserrat";
+		src:url("../font/montserrat/Montserrat-Black.otf");
+		src:url("../font/montserrat/Montserrat-ExtraBold.otf");
+		src:url("../font/montserrat/Montserrat-Medium.otf");
+		src:url("../font/montserrat/Montserrat-Regular.otf");
+		src:url("../font/montserrat/Montserrat-SemiBold.otf");
+		src:url("../font/montserrat/MontserratAlternates-Black.otf");
+		src:url("../font/montserrat/MontserratAlternates-Bold.otf");
+		src:url("../font/montserrat/MontserratAlternates-ExtraBold.otf");
+		src:url("../font/montserrat/MontserratAlternates-Medium.otf");
+		src:url("../font/montserrat/MontserratAlternates-Regular.otf");
+		src:url("../font/montserrat/MontserratAlternates-SemiBold.otf");}
+
+/* -----------------------HOME------------------------- */
+
+#home{
+
+	width: 90%;
+	margin: auto;
+	height: 80vh;
+}
+
+
+header{
+	width: 80%;
+  margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
+  transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+}
+
+/* -----------------------NAV1------------------------- */
+
+#navfixe{
+	position: fixed;
+	right: 10px;
+	top: 10px;
+}
+
+#navfixe img{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#navfixe #navigation{
+	display: inline-block;
+}
+
+#navfixe ul li{
+		padding-top: 5px;
+	background-color: #FFCCCC;
+	box-shadow: 2px 2px 0px #fff;
+	width: 150px;
+	height: 25px;
+	margin-bottom: 10px;
+	margin: 5px auto;
+	text-align: center;
+	font-family: "Montserrat-Black";
+	font-size:20px;
+}
+
+
+#navfixe ul li a{
+
+	margin-top: 20px;
+	text-decoration: none;
+		color:white;
+}
+
+#navfixe ul li a:hover {color: #FF9999;}
+
+/* -----------------------HEADER------------------------- */
+
+
+header h1{font-family: montserrat, sans-serif;
+			font-size: 60px;
+			font-style: bold;
+			color: #fff;}
+
+		#kenza{color:#FFCCCC;}
+
+
+header{font-family: helvetica, sans-serif;
+			font-size: 12px;
+			color: #fff;}
+
+hr {height: 2px;
+			background-color: #fff;
+			border:0px;}
+
+
+/* -----------------------FIN DU HOME------------------------- */
+
+/* ----------------------------ABOUT-------------------------- */
+
+
+#about{
+	background-color: #FFCCCC;
+	width: 100%;
+	background-position: fixed;
+	background-repeat: no-repeat;
+
+	margin: auto;
+	height: 70vh;
+
+}
+
+#about img {margin-left: 15%;
+			margin-top: 4%;}
+
+#about section {width: 40%;
+				margin-left: 45%;
+				padding-right: 10px;
+				margin-top: -20%;}
+
+#about h1 {font-family: montserrat, sans-serif;
+			text-shadow: 2px 2px 0px #000033;
+			font-size: 60px;
+			font-style: bold;
+			color: #fff;}
+
+#about p {font-family: helvetica, sans-serif;
+			font-size: 15px;
+			color: #fff;
+			text-align: justify;
+			height: 5%;
+			overflow: auto;}
+
+#about span {text-align: right;}
+	#about #truc {font-style: italic;}
+
+#about a {text-decoration: none;
+		color:#FF9999;}
+
+			#about a:hover {color: #333399;}
+
+
+/* ----------------------------MOSAÏQUE-------------------------- */
+
+#vignettes {width: 80%;}
+
+#vignettes section {margin-top: 15vh;
+					margin-left: 50vh;}
+
+#vignettes img {border: solid white 10px;
+				position: relative; z-index: 1;
+				display: inline-block;}
+
+.divblanche {background-color: white;
+		   	width: 190px;
+		 	height: 103px;
+		   	padding-top: 87px;
+			margin-top: -203px;
+			margin-left: 10px;
+			font-family: helvetica;
+			font-size: 15px;
+			text-align: center;
+			color: black;
+			position: relative; z-index: 2;
+			opacity: 0;
+
+		-webkit-transition: opacity 0.5s linear;
+		-moz-transition: opacity 0.5s linear;
+		-o-transition: opacity 0.5s linear;
+		-ms-transition: opacity 0.5s linear;
+		transition: opacity 0.5s linear;}
+
+		a {text-decoration: none;}
+
+			.divblanche:hover {opacity: 0.8;
+
+				-webkit-transition: opacity 0.5s linear;
+		-moz-transition: opacity 0.5s linear;
+		-o-transition: opacity 0.5s linear;
+		-ms-transition: opacity 0.5s linear;
+		transition: opacity 0.5s linear;}
+
+
+
+
+/* ----------------------------FOOTER/CONTACTS-------------------------- */
+
+footer {background-color: #FFCCCC;
+	width: 100%;
+	height: 200px;
+	padding-top: 80px;
+	margin-top: 100px;}
+
+	footer h1 {font-family: montserrat, sans-serif;
+			text-shadow: 2px 2px 0px #000033;
+			font-size: 40px;
+			font-style: bold;
+			color: #fff;}
+
+	#thx {font-family: helvetica, sans-serif;
+			font-size: 15px;
+			color: #fff;
+			text-align: right;}
+/*
+	footer section {width: 28%;
+				margin-left: 60%;
+				padding-right: 10px;
+				margin-top: 20vh;}*/
+
+#mecontacter{
+	vertical-align: top;
+	width: 300px;
+	display: inline-block;
+}
+#reseaux{
+	vertical-align: top;
+	width: 500px;
+	display: inline-block;
+
+}
+
+#blockfooter {width: 810px;
+				margin: auto;}
+
+#reseaux li{
+		padding-top: 5px;
+	background-color: #FF9999;
+	width: 150px;
+	height: 25px;
+	margin: 2px auto;
+	text-align: center;
+	font-family: "Montserrat-Black";
+	font-size:20px;
+	display: inline-block;
+	border: solid white 5px;
+	margin-right: 1px;
+	
+}
+
+
+#reseaux li a{
+
+	margin-top: 20px;
+	text-decoration: none;
+		color:white;
+}
+
+
+#reseaux li a:hover {color: #000033;}
+
+
+#pfooter {width: 100%;
+		background-color: #000033;
+		font-family: helvetica, sans-serif;
+		font-size: 12px;
+		color: #fff;
+		text-align: center;}

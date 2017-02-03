@@ -1,0 +1,233 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* --------------------FIN DU RESET---------------------- */
+
+body {background-image: url(../img/arches/arches.png);}
+
+#conteneur {width: 100%;}
+
+@font-face{font-family: "montserrat";
+		src:url("../font/montserrat/Montserrat-Black.otf");
+		src:url("../font/montserrat/Montserrat-ExtraBold.otf");
+		src:url("../font/montserrat/Montserrat-Medium.otf");
+		src:url("../font/montserrat/Montserrat-Regular.otf");
+		src:url("../font/montserrat/Montserrat-SemiBold.otf");
+		src:url("../font/montserrat/MontserratAlternates-Black.otf");
+		src:url("../font/montserrat/MontserratAlternates-Bold.otf");
+		src:url("../font/montserrat/MontserratAlternates-ExtraBold.otf");
+		src:url("../font/montserrat/MontserratAlternates-Medium.otf");
+		src:url("../font/montserrat/MontserratAlternates-Regular.otf");
+		src:url("../font/montserrat/MontserratAlternates-SemiBold.otf");}
+
+/* --------------------BANDE SUR LE COTE---------------------- */
+
+#cotebleu {background-color: #000033;
+		width: 20%;
+		height: 100%;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		display: inline-block;}
+
+	h1 {font-family: montserrat, sans-serif;
+			font-size: 40px;
+			font-style: bold;
+			color: #fff;
+			text-align: center;
+			padding-top: 30%;}
+
+			#kenza {text-align: center;
+					font-size: 15px;}
+
+			p {font-family: helvetica, sans-serif;
+			font-size: 13px;
+			color: #fff;
+			padding: 15px;}
+
+
+#cotebleu hr {height: 1px;
+			background-color: #fff;
+			border:0px;
+			margin-top: 13px;}
+
+/* -----------------------NAV------------------------- */
+
+#navfixe{
+	position: fixed; z-index: 4;
+	right: 10px;
+	top: 10px;
+
+}
+
+#navfixe img{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#navfixe #navigation{
+	display: inline-block;
+}
+
+#navfixe ul li{
+		padding-top: 5px;
+	background-color: #FFCCCC;
+	width: 90px;
+	height: 15px;
+	margin-bottom: 10px;
+	margin: 5px auto;
+	text-align: center;
+	font-family: montserrat, sans-serif;
+	font-size:10px;
+}
+
+
+#navfixe ul li a{
+
+	margin-top: 20px;
+	text-decoration: none;
+		color:white;
+}
+
+#navfixe ul li a:hover {color: #FF9999;}
+
+
+/* ----------------------- QUALIFICATIONS & CV ------------------------- */
+
+#qualif {background-color: #FFCCCC;
+		width: 60%;
+		height: 200px;
+		margin-left: 30%;
+		margin-top: 12%;
+		position: relative; z-index: 1;}
+
+		#qualification {position: relative; z-index: 2;
+						margin-top: -48%;
+						margin-left: 63%;
+						}
+		
+
+
+#about h1 {color: #FF9999;
+			text-shadow: 2px 2px 0px #000033;}
+
+			#about h2 {margin-left: 50%;
+						font-family: montserrat;
+						font-size: 20px;
+						color: #FF9999;
+						text-shadow: 1px 1px 0px #fff;
+						position: relative; z-index: 3;}
+
+						#about li {position: relative; z-index: 3;
+									}
+
+
+#abouttext {display: inline-block;
+			margin-left: 23%;}
+
+			#logiciels {
+			margin-left: 30%;}
+
+
+
+		
+	
+
+
+#cv {background-color: #FFCCCC;
+		width: 60%;
+		height: 150px;
+		margin-left: 30%;
+		margin-top: -2%;
+		position: relative; z-index: 1;}
+
+		#curriculum {position: relative; z-index: 2;
+						margin-top: -44%;
+						margin-left: 58%;}
+
+						#vitae {position: relative; z-index: 3;
+								margin-left: 43%;
+								padding-top: 50px;
+								font-size: 17px;}
+
+								#vitae a {text-decoration: none;
+											color: #000033;}
+
+								#vitae a:hover {color: #FF9999;}
+
+
+/* -----------------------PAGES------------------------- */	
+
+#chapo {font-style: italic;
+		text-align: center;}
+
+		#images {width: 50%;
+				height: 600px;
+			position: relative;
+			margin-left: 35%;
+			margin-top: 5%;
+			display: inline-block;}
+
+			#images img {border: solid 10px #fff;
+						box-shadow: 2px 2px 5px grey;}
+
+
+iframe {margin-left: 30%;
+		margin-top: 8%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
