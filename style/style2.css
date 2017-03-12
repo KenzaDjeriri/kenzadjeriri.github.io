@@ -63,7 +63,7 @@ body {background-image: url(../img/arches/arches.png);}
 
 /* --------------------BANDE SUR LE COTE---------------------- */
 
-#cotebleu {background-color: #000033;
+#cotebleu {background-color: #33CCCC;
 		width: 20%;
 		height: 100%;
 		position: fixed;
@@ -112,7 +112,7 @@ body {background-image: url(../img/arches/arches.png);}
 
 #navfixe ul li{
 		padding-top: 5px;
-	background-color: #FFCCCC;
+	background-color: #008B8B;
 	width: 90px;
 	height: 15px;
 	margin-bottom: 10px;
@@ -130,17 +130,18 @@ body {background-image: url(../img/arches/arches.png);}
 		color:white;
 }
 
-#navfixe ul li a:hover {color: #FF9999;}
+#navfixe ul li a:hover {color: #33CCCC;}
 
 
 /* ----------------------- QUALIFICATIONS & CV ------------------------- */
 
-#qualif {background-color: #FFCCCC;
+#qualif {background-color: #fff;
 		width: 60%;
 		height: 200px;
 		margin-left: 30%;
 		margin-top: 12%;
-		position: relative; z-index: 1;}
+		position: relative; z-index: 1;
+		box-shadow: 5px 5px 0px #008B8B;}
 
 		#qualification {position: relative; z-index: 2;
 						margin-top: -48%;
@@ -149,25 +150,27 @@ body {background-image: url(../img/arches/arches.png);}
 		
 
 
-#about h1 {color: #FF9999;
+#about h1 {color: #33CCCC;
 			text-shadow: 2px 2px 0px #000033;}
 
 			#about h2 {margin-left: 50%;
 						font-family: montserrat;
 						font-size: 20px;
-						color: #FF9999;
+						color: #33CCCC;
 						text-shadow: 1px 1px 0px #fff;
-						position: relative; z-index: 3;}
+						position: relative; z-index: 4;}
 
-						#about li {position: relative; z-index: 3;
+						#about li {position: relative; z-index: 4;
 									}
 
 
 #abouttext {display: inline-block;
-			margin-left: 23%;}
+			margin-left: 23%;
+			color: #008B8B;
+			font-family: helvetica;
+			font-size: 13px;}
 
-			#logiciels {
-			margin-left: 30%;}
+
 
 
 
@@ -175,12 +178,13 @@ body {background-image: url(../img/arches/arches.png);}
 	
 
 
-#cv {background-color: #FFCCCC;
+#cv {background-color: #fff;
 		width: 60%;
 		height: 150px;
 		margin-left: 30%;
-		margin-top: -2%;
-		position: relative; z-index: 1;}
+		margin-top: 0%;
+		position: relative; z-index: 1;
+		box-shadow: 5px 5px 0px #008B8B;}
 
 		#curriculum {position: relative; z-index: 2;
 						margin-top: -44%;
@@ -189,12 +193,13 @@ body {background-image: url(../img/arches/arches.png);}
 						#vitae {position: relative; z-index: 3;
 								margin-left: 43%;
 								padding-top: 50px;
-								font-size: 17px;}
+								font-size: 17px;
+								color: #008B8B;}
 
 								#vitae a {text-decoration: none;
-											color: #000033;}
+											color: #33CCCC;}
 
-								#vitae a:hover {color: #FF9999;}
+								#vitae a:hover {color: #008B8B;}
 
 
 /* -----------------------PAGES------------------------- */	
@@ -215,19 +220,3 @@ body {background-image: url(../img/arches/arches.png);}
 
 iframe {margin-left: 30%;
 		margin-top: 8%;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
